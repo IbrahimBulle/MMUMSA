@@ -30,7 +30,7 @@ const Navbar = () => {
           <Link to="/about" className={linkStyle}>About</Link>
           <Link to="/history" className={linkStyle}>Activities</Link>
           <Link to="/events" className={linkStyle}>Events</Link>
-          <Link to="/events" className={linkStyle}>Galary</Link>
+          <Link to="/gallery" className={linkStyle}>Gallery</Link>
           <Link to="/sponsors" className={linkStyle}>Sponsors</Link>
         </div>
 
@@ -57,6 +57,9 @@ const Navbar = () => {
               </Link>
               <Link to="/events" className={linkStyle} onClick={() => setIsOpen(false)}>
                 Events
+              </Link>
+              <Link to="/gallery" className={linkStyle} onClick={() => setIsOpen(false)}>
+                Gallery
               </Link>
               <Link to="/sponsors" className={linkStyle} onClick={() => setIsOpen(false)}>
                 Sponsors
